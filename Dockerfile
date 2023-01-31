@@ -1,7 +1,4 @@
 FROM scratch
-# ARG CODE_VERSION="latest" 
-
-# ARG WEB_FILE="/var/www/html/.htaccess"
 LABEL Creator: "tcdocker2021 aka Tcarters"
 ADD  ubuntu-lunar-oci-amd64-root.tar.gz /
 
